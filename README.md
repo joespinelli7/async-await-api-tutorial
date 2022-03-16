@@ -2,10 +2,12 @@
 
 Notes:
 
-async:
+async/await:
+```javascript
 async function name() {
-  const res = await fetch('url.com') <!-- fetching API url -->
+  const res = await fetch('url.com') // fetching API url
 }
+```
 
 <!-- What we're saying here is we're making an async function then awaiting a response that we're fetching
 from our API url -->
