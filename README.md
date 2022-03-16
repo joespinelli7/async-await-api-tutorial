@@ -1,15 +1,14 @@
 # async-await-api-tutorial:
 **https://www.youtube.com/watch?v=6WclW4ThDUU**
 
-async/await:
+async/await example:
 ```javascript
 async function name() {
   const res = await fetch('url.com') // fetching API url
 }
 ```
-
-<!-- What we're saying here is we're making an async function then awaiting a response that we're fetching
-from our API url -->
+What we're saying here is we're making an async function then awaiting a response that we're fetching
+from our API url.
 
 Should I use ‘Async/Await’ instead of just Fetch in JavaScript? <br />
 https://medium.com/@dannysoto/should-i-use-async-await-instead-of-just-fetch-in-javascript-710a72731e29
